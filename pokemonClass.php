@@ -2,7 +2,6 @@
 class pokemon
 {
 	var $nickName;
-	var $key;
 
 function chooseName() //Randomly chooses the Pokemon
 {
@@ -16,7 +15,11 @@ function chooseName() //Randomly chooses the Pokemon
 	
 function displayNickname() //Displays the nickname passed to the function
 {
+<<<<<<< HEAD
 	return $this->nickName;		
+=======
+	return $this->nickName;	
+>>>>>>> origin/master
 }
 	
 function chooseType() // Selects the Pokemon type based on the key set in the chooseName() function above
