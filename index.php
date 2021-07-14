@@ -1,5 +1,6 @@
 
 <?php
+//Add Required Files
 require 'templates/header.inc.php';
 require 'pokemonClass.php';
 
