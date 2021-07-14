@@ -1,4 +1,6 @@
+
 <?php
+require 'templates/header.inc.php';
 require 'pokemonClass.php';
 
 if (!empty($_POST))
@@ -15,5 +17,5 @@ echo "Attack: <b>" . $objPokemon->getRandomNumber(40, 95) . "</b><br/>";
 	echo '<center><form method="post">Pokemon Nickname: <input type="text" name="nickname"><br/><input type="submit"></form></center>';
 }
 	
-
+require 'templates/footer.inc.php';
 ?>
